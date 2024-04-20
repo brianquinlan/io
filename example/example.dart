@@ -1,6 +1,7 @@
 import 'dart:io';
 
 void main() {
-  stdout.write(
-      'This is a test\nOf the new\nOutput system\nThis is only a test\n');
+  for (var i = 99; i >= 0; --i) {
+    stdout.write('$i bottles of beer on the wall\n');
+  }
 }
